@@ -1,0 +1,1267 @@
+[
+	{
+		"id"           : "engine_problem",
+		"severity"     : "OK",
+		"detail"       : "The following errors happened during the test: \n%(finding)s"
+	}
+	,         {
+		"id"           : "service",
+		"severity"     : "OK",
+		"detail"       : "Tests have been performed on the following target: %(ip)s on the port %(port)s.\n%(finding)s."
+	}
+	,         {
+		"id"           : "sslv2",
+		"severity"     : "OK",
+		"detail"       : "- SSLv2 (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "sslv3",
+		"severity"     : "OK",
+		"detail"       : "- SSLv3 (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "tls1",
+		"severity"     : "OK",
+		"detail"       : "- TLSv1.0 (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "tls1_1",
+		"severity"     : "OK",
+		"detail"       : "- TLSv1.1 (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "tls1_2",
+		"severity"     : "OK",
+		"detail"       : "- TLSv1.2 (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "spdy_npn",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "https_alpn",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "std_NULL",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "std_aNULL",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "std_EXPORT",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "std_DES+64Bit",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "std_128Bit",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "std_3DES",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "std_HIGH",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "std_STRONG",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "pfs",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "pfs_ciphers",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "order",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "order_proto",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "order_cipher",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "order__cipher",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "order__cipher",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "order_TLSv1_cipher",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "order_TLSv1.1_cipher",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "order_TLSv1.2_cipher",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "order__cipher",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "tls_extensions",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "session_ticket",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "session_id",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "session_resumption_ticket",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "session_resumption_id",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "tls_time",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "algorithm",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "key_size",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "fingerprint",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cn",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "san",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "issuer",
+		"severity"     : "OK",
+		"detail"       : "- Certificate issuer (%(severity)s): The issuer of the certificate is not part of the known and trusted issuers (%(finding)s). Thus, a warning will be displayed in the users' client. This warning is hardly differentiable from one that would be displayed in case of a Man-in-the-Middle attack. In addition, users get used to see the warning and ignore it."
+	}
+	,         {
+		"id"           : "trust",
+		"severity"     : "OK",
+		"detail"       : "- Certificate trust (%(severity)s): The %(finding)s. Thus, a warning will be displayed in the users' client. This warning is hardly differentiable from one that would be displayed in case of a Man-in-the-Middle attack. In addition, users get used to see the warning and ignore it."
+	}
+	,         {
+		"id"           : "chain_of_trust",
+		"severity"     : "OK",
+		"detail"       : "- Certificate chain of trust (%(severity)s): The Chain of trust of the certificate cannot be considered as legit (%(finding)s). Thus, a warning will be displayed in the users' client. This warning is hardly differentiable from one that would be displayed in case of a Man-in-the-Middle attack. In addition, users get used to see the warning and ignore it."
+	}
+	,         {
+		"id"           : "ev",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "expiration",
+		"severity"     : "OK",
+		"detail"       : "- Certificate expiration (%(severity)s): The certificate expiration date is outdated (%(finding)s). Thus, a warning will be displayed in the users' client. This warning is hardly differentiable from one that would be displayed in case of a Man-in-the-Middle attack. In addition, users get used to see the warning and ignore it."
+	}
+	,         {
+		"id"           : "certcount",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "crl",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "ocsp_uri",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "ocsp_stapling",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "OCSP must staple: ocsp_must_staple",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "CAA_record",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "certificate_transparency",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "HTTP_STATUS_CODE",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "http_clock_skew",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "hsts",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "hpkp",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "serverbanner",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "app_banner",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cookie_count",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cookie_secure",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cookie_httponly",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "X-Frame-Options",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "X-XSS-Protection",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "X-Content-Type-Options",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "rp_header",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "heartbleed",
+		"severity"     : "OK",
+		"detail"       : "- Heartbleed (%(severity)s): The Heartbleed Bug is a serious vulnerability in the popular OpenSSL cryptographic software library. This weakness allows stealing the information protected, under normal conditions, by the SSL/TLS encryption used to secure the Internet.\nThe Heartbleed bug allows anyone on the Internet to read the memory of the systems protected by the vulnerable versions of the OpenSSL software. This compromises the secret keys used to identify the service providers and to encrypt the traffic, the names and passwords of the users and the actual content. This allows attackers to eavesdrop on communications, steal data directly from the services and users and to impersonate services and users.\nFor more details refer to the following link: http://heartbleed.com/."
+	}
+	,         {
+		"id"           : "ccs",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "ticketbleed",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "secure_renego",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "sec_client_renego",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "crime",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "breach",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "poodle_ssl",
+		"severity"     : "OK",
+		"detail"       : "- POODLE (%(severity)s): A design vulnerability has been found in the way SSL 3.0 handles block cipher mode padding. The POODLE attack demonstrates how an attacker can exploit this vulnerability to decrypt and extract information from inside an encrypted transaction.\nFor more details refer to the following link: https://www.us-cert.gov/ncas/alerts/TA14-290A."
+	}
+	,         {
+		"id"           : "fallback_scsv",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "sweet32",
+		"severity"     : "OK",
+		"detail"       : "- SWEET32 (%(severity)s): Cryptographic protocols like TLS, SSH, IPsec, and OpenVPN commonly use block cipher algorithms, such as AES, Triple-DES, and Blowfish, to encrypt data between clients and servers. To use such algorithms, the data is broken into fixed-length chunks, called blocks, and each block is encrypted separately according to a mode of operation. Older block ciphers, such as Triple-DES and Blowfish use a block size of 64 bits, whereas AES uses a block size of 128 bits.\nIt is well-known in the cryptographic community that a short block size makes a block cipher vulnerable to birthday attacks, even if there are no cryptographic attacks against the block cipher itself. We observe that such attacks have now become practical for the common usage of 64-bit block ciphers in popular protocols like TLS and OpenVPN.\nSWEET32 shows that a network attacker who can monitor a long-lived Triple-DES HTTPS connection between a web browser and a website can recover secure HTTP cookies.\nFor more details, refer to the following link: https://sweet32.info/."
+	}
+	,         {
+		"id"           : "freak",
+		"severity"     : "OK",
+		"detail"       : "- FREAK (%(severity)s): CVE-2015-0204, also known as Factoring Attack on RSA-EXPORT Keys, enables hackers or intelligence agencies to force clients to use older, weaker encryption i.e. also known as the export-grade key or 512-bit RSA keys.\nFor more details, refer to the following links: https://www.inria.fr/en/news/news-from-inria/freak-vulnerability-detection an https://nvd.nist.gov/vuln/detail/CVE-2015-0204."
+	}
+	,         {
+		"id"           : "drown",
+		"severity"     : "OK",
+		"detail"       : "- DROWN (%(severity)s): DROWN shows that merely supporting SSLv2 is a threat to modern servers and clients. It allows an attacker to decrypt modern TLS connections between up-to-date clients and servers by sending probes to a server that supports SSLv2 and uses the same private key.\nFor more details, refer to the following link: https://drownattack.com/."
+	}
+	,         {
+		"id"           : "logjam",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "LOGJAM_common primes",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cbc_tls1",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "beast",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "lucky13",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "rc4",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_x9f",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_x6b",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_x39",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_x88",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_x9d",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_x3d",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_x35",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_x84",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_x9e",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_x67",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_x33",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_x9a",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_x45",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_x9c",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_x3c",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_x2f",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_x96",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_x41",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_android_237",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_android_411",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_android_43",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_android_442",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_android_500",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_android_60",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_android_70",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_chrome_51_win7",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_chrome_57_win7",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_firefox_49_win7",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_firefox_53_win7",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_ie_6_xp",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_ie_7_vista",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_ie_8_xp",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_ie_8_win7",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_ie_11_win7",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_ie_11_win81",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_ie_11_winphone81update",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_ie_11_win10",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_edge_13_win10",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_edge_13_winphone10",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_opera_17_win7",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_safari_519_osx1068",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_safari_7_ios71",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_safari_9_osx1011",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_safari_10_osx1012",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_apple_ats_9_ios9",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_tor_1709_win7",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_java_6u45",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_java_7u25",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_java_8u31",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_openssl_101l",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "client_openssl_102e",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "pre_128cipher",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "TLS1_3",
+		"severity"     : "OK",
+		"detail"       : "- TLSv1.3 (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "NPN",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "ALPN",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipherlist_NULL",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipherlist_aNULL",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipherlist_EXPORT",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipherlist_LOW",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipherlist_3DES_IDEA",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipherlist_AVERAGE",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipherlist_STRONG",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "DH_groups",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_order",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "protocol_negotiated",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_negotiated",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_order_",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_order_",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_order_TLSv1",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_order_TLSv1.1",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_order_TLSv1.2",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_order_",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "TLS_session_ticket",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "SSL_sessionID_support",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "sessionresumption_ticket",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "sessionresumption_ID",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "TLS_timestamp",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cert_numbers",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cert_signatureAlgorithm",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cert_keySize",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cert_keyUsage",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cert_extKeyUsage",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cert_serialNumber",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cert_fingerprintSHA1",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cert_fingerprintSHA256",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cert",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cert_commonName",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cert_commonName_wo_SNI",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cert_subjectAltName",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cert_caIssuers",
+		"severity"     : "OK",
+		"detail"       : "- Certificate issuer (%(severity)s): The issuer of the certificate is not part of the known and trusted issuers (%(finding)s). Thus, a warning will be displayed in the users' client. This warning is hardly differentiable from one that would be displayed in case of a Man-in-the-Middle attack. In addition, users get used to see the warning and ignore it."
+	}
+	,         {
+		"id"           : "cert_trust",
+		"severity"     : "OK",
+		"detail"       : "- Certificate trust (%(severity)s): The %(finding)s. Thus, a warning will be displayed in the users' client. This warning is hardly differentiable from one that would be displayed in case of a Man-in-the-Middle attack. In addition, users get used to see the warning and ignore it."
+	}
+	,         {
+		"id"           : "cert_chain_of_trust",
+		"severity"     : "OK",
+		"detail"       : "- Certificate chain of trust (%(severity)s): The Chain of trust of the certificate cannot be considered as legit (%(finding)s). Thus, a warning will be displayed in the users' client. This warning is hardly differentiable from one that would be displayed in case of a Man-in-the-Middle attack. In addition, users get used to see the warning and ignore it."
+	}
+	,         {
+		"id"           : "cert_certificatePolicies_EV",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cert_eTLS",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cert_expirationStatus",
+		"severity"     : "OK",
+		"detail"       : "- Certificate expiration status (%(severity)s): The certificate status is: %(finding)s. Thus, a warning will be displayed in the users' client. This warning is hardly differentiable from one that would be displayed in case of a Man-in-the-Middle attack. In addition, users get used to see the warning and ignore it."
+	}
+	,         {
+		"id"           : "cert_notBefore",
+		"severity"     : "OK",
+		"detail"       : "- Certificate validity beginning date (%(severity)s): The certificate validity beginning date is in the future (%(finding)s). Thus, a warning will be displayed in the users' client. This warning is hardly differentiable from one that would be displayed in case of a Man-in-the-Middle attack. In addition, users get used to see the warning and ignore it."
+	}
+	,         {
+		"id"           : "cert_notAfter",
+		"severity"     : "OK",
+		"detail"       : "- Certificate expiration date (%(severity)s): The certificate expiration date is outdated (%(finding)s). Thus, a warning will be displayed in the users' client. This warning is hardly differentiable from one that would be displayed in case of a Man-in-the-Middle attack. In addition, users get used to see the warning and ignore it."
+	}
+	,         {
+		"id"           : "cert_validityPeriod",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "certs_countServer",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "certs_list_ordering_problem",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cert_crlDistributionPoints",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cert_ocspURL",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cert_revocation",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cert_mustStapleExtension",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "DNS_CAArecord",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "banner_server",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "banner_application",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "banner_reverseproxy",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "ROBOT",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "secure_client_renego",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "CRIME_TLS",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "BEAST_CBC_TLS1",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-android_442",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-android_500",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-android_60",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-android_70",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-android_81",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-android_90",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-chrome_65_win7",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-chrome_74_win10",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-firefox_62_win7",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-firefox_66_win81",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-ie_6_xp",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-ie_8_win7",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-ie_8_xp",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-ie_11_win7",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-ie_11_win81",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-ie_11_winphone81",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-ie_11_win10",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-edge_15_win10",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-edge_17_win10",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-opera_60_win10",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-safari_9_ios9",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-safari_9_osx1011",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-safari_10_osx1012",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-safari_121_ios_122",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-safari_130_osx_10146",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-apple_ats_9_ios9",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-java_6u45",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-java_7u25",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-java_8u161",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-java1102",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-java1201",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-openssl_101l",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-openssl_102e",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-openssl_110j",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-openssl_111b",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-thunderbird_60_6_1",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "scanTime",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipherlist_128Bit",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipherlist_3DES",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "security_headers",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "LOGJAM-common_primes",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "BEAST_CBC_SSL3",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipherlist_DES+64Bit",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipherlist_HIGH",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_order_SSLv3",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cert_expiration_status",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_x05",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_x16",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "cipher_x0a",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-android_422",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-chrome_57_win7",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-firefox_53_win7",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-firefox_59_win7",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-ie_7_vista",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-edge_13_win10",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-edge_13_winphone10",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-opera_17_win7",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-tor_1709_win7",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+	,         {
+		"id"           : "clientsimulation-java_904",
+		"severity"     : "OK",
+		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+	}
+]
