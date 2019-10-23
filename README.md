@@ -7,7 +7,7 @@ This script is meant to generate a vulnerability description that can be copied 
 
 Simply use the `--jsonfile` option when running testssl and put the created file as a program argument.
 
-![sort.png](doc/sort.png "Simple example with wulnerabilities sorted by severity")
+![sort.png](doc/sort.png "Simple example with vulnerabilities sorted by severity")
 
 ## Features
 
