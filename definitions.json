@@ -12,27 +12,27 @@
 	,         {
 		"id"           : "sslv2",
 		"severity"     : "OK",
-		"detail"       : "- SSLv2 (%(severity)s): %(finding)s"
+		"detail"       : "- SSLv2 (%(severity)s): SSLv2 has been created by Netscape in 1995 and SSLv3 by the same company in 1996. From the start, SSLv2 showed weaknesses and has quickly been replaced by SSLv3. TLS is now, and since several years, the standard.\nThose protocols, too often used, are vulnerable to Man In The Middle (MITM) attacks allowing a third part to intercept, modify and decypher transferred data.\nEven if higher protocols are supported, supporting SSLv2 might conduct your server to be vulnerable to the DROWN attack. It allows an attacker to decrypt modern TLS connections between up-to-date clients and servers by sending probes to a server that supports SSLv2 and uses the same private key.\nFor more details, refer to the following link: https://drownattack.com/."
 	}
 	,         {
 		"id"           : "sslv3",
 		"severity"     : "OK",
-		"detail"       : "- SSLv3 (%(severity)s): %(finding)s"
+		"detail"       : "- SSLv3 (%(severity)s): SSLv2 has been created by Netscape in 1995 and SSLv3 by the same company in 1996. From the start, SSLv2 showed weaknesses and has quickly been replaced by SSLv3. TLS is now, and since several years, the standard.\nThose protocols, too often used, are vulnerable to Man In The Middle (MITM) attacks allowing a third part to intercept, modify and decypher transferred data.\nA design vulnerability has been found in the way SSL 3.0 handles block cipher mode padding. The POODLE attack demonstrates how an attacker can exploit this vulnerability to decrypt and extract information from inside an encrypted transaction.\nFor more details refer to the following link: https://www.us-cert.gov/ncas/alerts/TA14-290A."
 	}
 	,         {
 		"id"           : "tls1",
 		"severity"     : "OK",
-		"detail"       : "- TLSv1.0 (%(severity)s): %(finding)s"
+		"detail"       : "- TLS 1.0 (%(severity)s): %(finding)s"
 	}
 	,         {
 		"id"           : "tls1_1",
 		"severity"     : "OK",
-		"detail"       : "- TLSv1.1 (%(severity)s): %(finding)s"
+		"detail"       : "- TLS 1.1 (%(severity)s): %(finding)s"
 	}
 	,         {
 		"id"           : "tls1_2",
 		"severity"     : "OK",
-		"detail"       : "- TLSv1.2 (%(severity)s): %(finding)s"
+		"detail"       : "- TLS 1.2 (%(severity)s): %(finding)s"
 	}
 	,         {
 		"id"           : "spdy_npn",
@@ -392,12 +392,12 @@
 	,         {
 		"id"           : "cbc_tls1",
 		"severity"     : "OK",
-		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+		"detail"       : "- BEAST TLS 1.0 (%(severity)s): A vulnerability has been found in implementations of SSL 3.0 and TLS 1.0 using cipher block chaining (CBC) encryption scheme in a browser environment. The attack became known as The BEAST (Browser Exploit Against SSL/TLS).\nIn a SSL connection if the data is encrypted using CBC with chained initialization vectors, it allows a man-in-the-middle to obtain plain text HTTP headers using blockwise-adaptive chosen-plaintext attack. In short it will allow decrypting HTTPS requests and steal information such as session cookies to be used to impersonate the user.\nHere is a list of ciphers implicated for TLS 1.0 in this case:%(finding)s\nFor more details, refer to the following link: https://countuponsecurity.com/2013/06/22/browser-exploit-against-ssltls/"
 	}
 	,         {
 		"id"           : "beast",
 		"severity"     : "OK",
-		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+		"detail"       : "- BEAST (%(severity)s): A vulnerability has been found in implementations of SSL 3.0 and TLS 1.0 using cipher block chaining (CBC) encryption scheme in a browser environment. The attack became known as The BEAST (Browser Exploit Against SSL/TLS).\nIn a SSL connection if the data is encrypted using CBC with chained initialization vectors, it allows a man-in-the-middle to obtain plain text HTTP headers using blockwise-adaptive chosen-plaintext attack. In short it will allow decrypting HTTPS requests and steal information such as session cookies to be used to impersonate the user.\nFor more details, refer to the following link: https://countuponsecurity.com/2013/06/22/browser-exploit-against-ssltls/"
 	}
 	,         {
 		"id"           : "lucky13",
@@ -702,12 +702,12 @@
 	,         {
 		"id"           : "cipherlist_LOW",
 		"severity"     : "OK",
-		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+		"detail"       : "- LOW: 64 Bit + DES, RC[2,4] (w/o export) (%(severity)s): %(finding)s"
 	}
 	,         {
 		"id"           : "cipherlist_3DES_IDEA",
 		"severity"     : "OK",
-		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+		"detail"       : "- Triple DES Ciphers / IDEA (%(severity)s): Triple DES and IDEA ciphers are considered weak and can lead to the decryption of communications between clients and servers."
 	}
 	,         {
 		"id"           : "cipherlist_AVERAGE",
@@ -967,7 +967,7 @@
 	,         {
 		"id"           : "BEAST_CBC_TLS1",
 		"severity"     : "OK",
-		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+		"detail"       : "- BEAST TLS 1.0 (%(severity)s): A vulnerability has been found in implementations of SSL 3.0 and TLS 1.0 using cipher block chaining (CBC) encryption scheme in a browser environment. The attack became known as The BEAST (Browser Exploit Against SSL/TLS).\nIn a SSL connection if the data is encrypted using CBC with chained initialization vectors, it allows a man-in-the-middle to obtain plain text HTTP headers using blockwise-adaptive chosen-plaintext attack. In short it will allow decrypting HTTPS requests and steal information such as session cookies to be used to impersonate the user.\nHere is a list of ciphers implicated for TLS 1.0 in this case:%(finding)s\nFor more details, refer to the following link: https://countuponsecurity.com/2013/06/22/browser-exploit-against-ssltls/"
 	}
 	,         {
 		"id"           : "clientsimulation-android_442",
@@ -1177,7 +1177,7 @@
 	,         {
 		"id"           : "BEAST_CBC_SSL3",
 		"severity"     : "OK",
-		"detail"       : "- %(id)s (%(severity)s): %(finding)s"
+		"detail"       : "- BEAST SSLv3 (%(severity)s): A vulnerability has been found in implementations of SSL 3.0 and TLS 1.0 using cipher block chaining (CBC) encryption scheme in a browser environment. The attack became known as The BEAST (Browser Exploit Against SSL/TLS).\nIn a SSL connection if the data is encrypted using CBC with chained initialization vectors, it allows a man-in-the-middle to obtain plain text HTTP headers using blockwise-adaptive chosen-plaintext attack. In short it will allow decrypting HTTPS requests and steal information such as session cookies to be used to impersonate the user.\nHere is a list of ciphers implicated for SSLv3 in this case:%(finding)s\nFor more details, refer to the following link: https://countuponsecurity.com/2013/06/22/browser-exploit-against-ssltls/"
 	}
 	,         {
 		"id"           : "cipherlist_DES+64Bit",
