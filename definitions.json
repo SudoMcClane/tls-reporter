@@ -22,7 +22,7 @@
 	,         {
 		"id"           : "tls1",
 		"severity"     : "OK",
-		"detail"       : "- TLS 1.0 (%(severity)s): %(finding)s"
+		"detail"       : "- TLS 1.0 (%(severity)s): TLS, a standard specified by the Internet Engineering Task Force, defines the method by which client and server computers establish a secure connection with one another to protect data that is passed back and forth. The Internet Engineering Task Force found vulnerabilities in TLS 1.0, one of the most widely used protocols, and updated it to TLS 1.1, then TLS 1.2 and now TLS 1.3 to resolve many of these security issues.\nFor more details refer to the following link: https://www.globalsign.com/en/blog/disable-tls-10-and-all-ssl-versions/"
 	}
 	,         {
 		"id"           : "tls1_1",
